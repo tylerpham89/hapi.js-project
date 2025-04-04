@@ -1,4 +1,3 @@
-ETAMU CSCI 310 Project Report
 
 Angel Campos, Tyler Pham
 
@@ -8,8 +7,7 @@ The file that is vulnerable to XSS impact in our project is called
 xss.js. The following points highlight the vulnerabilities to attackers.
 
 ![A screenshot of a computer Description automatically
-generated](images/media/image1.png){width="6.5in"
-height="3.370138888888889in"}
+generated](images/media/image1.png)
 
 1.  Direct Output Without Escaping:
 
@@ -43,8 +41,7 @@ The file that prevents XSS is called xssprev.js. The following points
 highlight the prevention methods taken to increase security.
 
 ![A screenshot of a computer Description automatically
-generated](images/media/image2.png){width="6.5in"
-height="3.4583333333333335in"}
+generated](images/media/image2.png)
 
 1.  Input is sanitized using the he.escape function:
 
@@ -83,7 +80,7 @@ input encoding, renders scripts as plain text.
 For this part of the project, NoSQL injection is tested.
 
 ![A screenshot of a computer Description automatically
-generated](images/media/image3.png){width="6.5in" height="3.15625in"}
+generated](images/media/image3.png)
 
 1.  User 'admin' and password 'password123' grant a successful login.
     However, because the username and password fields in the payload
@@ -115,8 +112,7 @@ The attacker can exploit this by crafting malicious payloads to:
 > attacker gains access without knowing the real password.
 
 ![A computer screen shot of a black screen Description automatically
-generated](images/media/image4.png){width="6.5in"
-height="3.453472222222222in"}
+generated](images/media/image4.png)
 
 2.  Inject Logical Conditions
 
@@ -136,8 +132,7 @@ evaluates to true.
 > MongoDB treats this as a valid query, bypassing the password check.
 
 ![A screen shot of a computer Description automatically
-generated](images/media/image5.png){width="6.5in"
-height="3.433333333333333in"}
+generated](images/media/image5.png)
 
 3.  Retrieve Unauthorized Data:
 
@@ -174,8 +169,7 @@ b.  With a modified handler:
 Its able to retrieve sensitive information:
 
 ![A computer screen shot of a computer program Description automatically
-generated](images/media/image6.png){width="6.5in"
-height="3.6006944444444446in"}
+generated](images/media/image6.png)
 
 **NoSQL Injection Prevention**
 
@@ -183,8 +177,7 @@ height="3.6006944444444446in"}
 > authentication, inject logical conditions, or retrieve sensitive data
 > no longer work.
 >
-> ![](images/media/image7.png){width="6.489583333333333in"
-> height="2.5520833333333335in"}
+> ![](images/media/image7.png)
 
 Enchancements
 
@@ -303,8 +296,7 @@ Why This Works
         the attacker from flooding the server with more requests.
 
 ![A black screen with white text Description automatically
-generated](images/media/image8.png){width="6.5in"
-height="1.0194444444444444in"}
+generated](images/media/image8.png)
 
 After spamming a couple login requests, it denies me
 
